@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deepak's Portpolio</title>
+    <link rel="stylesheet" href="css.css" />
+    <script
+      src="https://kit.fontawesome.com/004daef162.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- -----------------header----------------- -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="potos/logo.png" alt="logo_image" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#roles">Roles</a></li>
+            <li><a href="#port">Portpolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Software Developer</p>
+          <h1>Hi, I'm <span>Deepak Hegde</span><br />From Bengaluru, India</h1>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------about------------------------ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col1">
+            <img src="potos/user.jpg" />
+          </div>
+          <div class="col2">
+            <h1 class="about">About Me</h1>
+            <p>
+              I'm an enthusiastic and ambitious learner, responsible for any
+              task I undertake to give the best outcome possible. I'm good at
+              working with people to overcome any task or situation presented
+              with, to achieve the given work with excellence.With a strong
+              passion to learn new things which allows me to grow in new ways
+              I’m always open to new ideas and perspectives.
+            </p>
+            <div class="about2">
+              <p class="tab act" onclick="opentab('skills')">Skills</p>
+              <p class="tab" onclick="opentab('intern')">Internships</p>
+              <p class="tab" onclick="opentab('ed')">Education</p>
+            </div>
+            <div class="tabcontent active" id="skills">
+              <ul>
+                <li>
+                  <span>Languages:</span><br />
+                  Java, Python, C#, JavaScript, C, C++
+                </li>
+                <li>
+                  <span>Databases:</span><br />
+                  SQL, MongoDB, DBMS
+                </li>
+                <li>
+                  <span>Tools and frameworks:</span><br />
+                  HTML, CSS, Node.js, Express.js, Data Structures and
+                  Algorithms, Data Science, Problem Solving
+                </li>
+                <li>
+                  <span>Basics:</span><br />
+                  React, AWS, Excel, Docker, Kubernetes, Git
+                </li>
+              </ul>
+            </div>
+            <div class="tabcontent" id="intern">
+              <ul>
+                <li>
+                  <span style="color: #ff004f">Aug 2022 - Sep 2022</span><br />
+                  <span>Company Name: </span>YBI Foundation <br /><span
+                    >Role: </span
+                  >Data Analyst Intern
+                  <p>
+                    <span>Description: </span>Became proficient at Python
+                    syntax, data structures, and object-oriented programming
+                    principles.
+                  </p>
+                </li>
+                <br />
+                <li>
+                  <span style="color: #ff004f">Jan 2023 - Feb 2023</span><br />
+                  <span>Company Name: </span>Varcons Technologies Pvt Ltd
+                  <br /><span>Role: </span> Full Stack Developer Intern
+                  <p>
+                    <span>Description:</span>As a part of the project, I have
+                    designed functional web pages, used database to collect,
+                    store and sort Data by using technologies like HTML, CSS,
+                    JavaScript, MongoDB and Node.js.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="tabcontent" id="ed">
+              <ul>
+                <li>
+                  <span style="color: #ff004f">Jun 2016 - Apr 2017</span><br />
+                  <span>Company Name: </span>Little Star English Medium School
+                  <br />
+                  <span>Location: </span>Udupi<br />
+                  <span>Percentage/CGPA:</span> 96.32%
+                </li>
+                <br />
+                <li>
+                  <span style="color: #ff004f">Jun 2017 - Apr 2019</span><br />
+                  <span>Company Name: </span>Excellent Pre-University College
+                  <br /><span>Location: </span> Udupi<br />
+                  <span>Percentage/CGPA:</span> 85%
+                </li>
+                <br />
+                <li>
+                  <span style="color: #ff004f">Aug 2019 - Jul 2023</span><br />
+                  <span>Company Name: </span>Acharya Institute of Technology
+                  <br /><span>Location: </span>Bengaluru<br />
+                  <span>Percentage/CGPA:</span> 8.7 CGPA
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------roles----------------------------- -->
+    <div id="roles">
+      <div class="container">
+        <h1 class="about">Roles</h1>
+        <div class="roleslist">
+          <div>
+            <i class="role fa-solid fa-computer"></i>
+            <h2>Software Developer</h2>
+            <p>
+              I'm good at programming languages like Java and also intermediate
+              knowledge on Python, C, C#. I'm good at problem solving and also
+              good at Understanding Data Structures and Algorithms and SDLC life
+              cycle. And I believe that the ability and willingness to
+              continuously learn and adapt to new technologies and methodologies
+              is crucial in the fast-paced field of software development.
+            </p>
+            <a href="#port">Learn more</a>
+          </div>
+          <div>
+            <i class="role fa-solid fa-code"></i>
+            <h2>Full Stack Developer</h2>
+            <p>
+              I believe my skills would make me a great fit for the role as Full
+              Stack Developer. My skills are HTML, CSS, JavaScript for the
+              frontend and MongoDB, Express.js and Node.js for the database and
+              backend. I also done two projects based on full stack development.
+            </p>
+            <a href="#port">Learn more</a>
+          </div>
+          <div>
+            <i class="role fa-brands fa-java"></i>
+            <h2>Java Developer</h2>
+            <p>
+              I'm good at Java programming language as it is most used
+              programming language all over world. I'm also good at Data
+              Structures and Algorithms using Java as programming language. I'm
+              currently exploring Blind 75 of leetcode for upgrading my skills
+              on Java.
+            </p>
+            <a href="#port">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------potpolio------------------------------ -->
+    <div id="port">
+      <div class="container">
+        <h1 class="about">Projects</h1>
+        <div class="projlist">
+          <div class="proj">
+            <img src="potos/car.jpeg" />
+            <div class="layer">
+              <h3>Car Rental System</h3>
+              <p>
+                Built using: Java Programming<br />
+                This project is an interactive system where the user can explore
+                and rent different cars from the catalogue and are provided with
+                a payment gateway.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="proj">
+            <img src="potos/blog.jpeg" />
+            <div class="layer">
+              <h3>Personal Data Blog</h3>
+              <p>
+                Built Using: CRUD Operations, MongoDB, Express.js, Node.js<br />
+                This project is an interactive system where the user will be
+                able to create his own blog related to any of his work adn will
+                be able to update and delete whenever he wants and also able to
+                add images and markdown for his purpose.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="proj">
+            <img src="potos/quiz.webp" />
+            <div class="layer">
+              <h3>Quiz Management System</h3>
+              <p>
+                DBMS project using MySQL<br />
+                This project aims to manage the feedback given by the students
+                with respect to their teachers according to their teaching
+                subjects.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="proj">
+            <img class="data" src="potos/p1.webp" />
+            <div class="layer">
+              <h3>A User Authentication System</h3>
+              <p>
+                Built Using: HTML, CSS, Node.js, Express.js, MongoDB<br />
+                In this project you'll design a signup or login process for
+                visitors. The authentication layer is entrenched in many
+                organization websites, making the login/signup project crucial.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- -------------------------------------contact--------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="con1">
+            <h1 class="about">Contact Me</h1>
+            <p>
+              <i class="fa-regular fa-envelope">:</i> deepakhegde2705@gmail.com
+              <br /><i class="fa-regular fa-envelope">:</i>
+              deepakhegde2002@gmail.com
+            </p>
+            <p><i class="fa-solid fa-mobile-screen-button">:</i> 9108966720</p>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/deepakhegde27"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/deepakhegde05/Portpolio-"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.instagram.com/deepak_hegde_27"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100073563775645&mibextid=5NY4jEj8SVMV44HD"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+            <a href="potos/resume.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="con2">
+            <form
+              action="https://formsubmit.co/deepakhegde2705@gmail.com"
+              method="POST"
+            >
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                id="name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                id="email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copy">
+        <p>Copyright © Deepak Hegde <i class="fa-solid fa-fire"></i></p>
+      </div>
+    </div>
+    <script>
+      var tabs = document.getElementsByClassName("tab");
+      var pertabs = document.getElementsByClassName("tabcontent");
+      function opentab(tabname) {
+        for (tab of tabs) {
+          tab.classList.remove("act");
+        }
+        for (pertab of pertabs) {
+          pertab.classList.remove("active");
+        }
+        event.currentTarget.classList.add("act");
+        document.getElementById(tabname).classList.add("active");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
